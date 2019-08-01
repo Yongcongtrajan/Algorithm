@@ -1,4 +1,4 @@
-package binarysearch;
+package binarysearchandrecursion;
 
 public class Fibonacci {
     public int fibonacci(int K) {

@@ -1,4 +1,4 @@
-package binarysearch;
+package binarysearchandrecursion;
 
 public class CloestInSortedArray {
     public static void main(String[] args) {
