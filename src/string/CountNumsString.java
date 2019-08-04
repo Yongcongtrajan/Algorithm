@@ -10,6 +10,15 @@ public class CountNumsString {
         String [] keys= text.split(" ");
 
         Map<String,Integer> hm = new HashMap<>();
+       /* for (String i : keys) {
+            Integer n = hm.get(i);
+            if (n == null) {
+                hm.put(i,1);
+            } else {
+                hm.put(i,hm.get(i)+1);
+            }
+        }*/
+
         for (String i : keys) {
             hm.merge(i, 1, Integer::sum);
         }
