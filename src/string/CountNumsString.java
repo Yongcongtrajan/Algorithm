@@ -20,7 +20,12 @@ public class CountNumsString {
         }*/
 
         for (String i : keys) {
-            hm.merge(i, 1, Integer::sum);
+            //hm.merge(i, 1, Integer::sum);
+          //  int count = (hm.containsKey(i) ? hm.get(i) : 0);
+          //  count++;
+           // hm.put(i, count);
+            hm.put(i,hm.getOrDefault(i,0) + 1);
+
         }
 
         //Set<Entry<String,Integer>> hash
