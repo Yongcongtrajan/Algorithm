@@ -4,19 +4,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AllSubsetI {
-    public List<String> subSets(String set) {
+
+    public static void main(String[] args) {
+        List<String> result = subSets("ABC");
+        System.out.println(result);
+       // result.contains()
+    }
+    public static List<String> subSets(String set) {
         List<String> result = new ArrayList<>();
         if (set == null) {
             return result;
         }
         char [] arraySet = set.toCharArray();
+        //String Method toCharArray() return char array
         StringBuilder sb = new StringBuilder();
         helper(arraySet, sb, 0, result);
 
         // Write your solution here.
         return result;
     }
-    private void helper(char [] set, StringBuilder sb, int index, List<String> result) {
+    private static void helper(char [] set, StringBuilder sb, int index, List<String> result) {
         if(index == set.length) {
             result.add(sb.toString());
             return;
