@@ -18,6 +18,7 @@ public class CountNumsString {
                 hm.put(i,hm.get(i)+1);
             }
         }*/
+      // hm.put(null,1);
 
         for (String i : keys) {
             //hm.merge(i, 1, Integer::sum);

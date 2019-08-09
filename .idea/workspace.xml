@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95690299-6609-4627-b507-04043caf959a" name="Default Changelist" comment="All SubSet I">
-      <change afterPath="$PROJECT_DIR$/src/priorityqueue/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/priorityqueue/pq.java" afterDir="false" />
+    <list default="true" id="95690299-6609-4627-b507-04043caf959a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/antra/DeDup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/antra/SecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/antra/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/antra/WordsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortlist/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/RemoveDup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string/CountNumsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/CountNumsString.java" afterDir="false" />
     </list>
@@ -53,13 +59,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pq">
-    <configuration name="CountNumsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.CountNumsString" />
+  <component name="RunManager" selected="Application.WordsCount">
+    <configuration name="DeDup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="antra.DeDup" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="antra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeekStringSet1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.GeekStringSet1" />
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="antra.SecondLargest" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="antra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashcodeAndEqualOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashcodeandequal.HashcodeAndEqualOverride" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortlist.Student" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashcodeandequal.*" />
+          <option name="PATTERN" value="sortlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hash.TwoSum" />
+      <option name="MAIN_CLASS_NAME" value="antra.TwoSum" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hash.*" />
+          <option name="PATTERN" value="antra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="priorityqueue.pq" />
+    <configuration name="WordsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="antra.WordsCount" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="priorityqueue.*" />
+          <option name="PATTERN" value="antra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountNumsString" />
-      <item itemvalue="Application.GeekStringSet1" />
-      <item itemvalue="Application.HashcodeAndEqualOverride" />
+      <item itemvalue="Application.Student" />
       <item itemvalue="Application.TwoSum" />
-      <item itemvalue="Application.pq" />
+      <item itemvalue="Application.DeDup" />
+      <item itemvalue="Application.SecondLargest" />
+      <item itemvalue="Application.WordsCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pq" />
-        <item itemvalue="Application.CountNumsString" />
+        <item itemvalue="Application.WordsCount" />
+        <item itemvalue="Application.SecondLargest" />
+        <item itemvalue="Application.DeDup" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.HashcodeAndEqualOverride" />
-        <item itemvalue="Application.GeekStringSet1" />
+        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +156,8 @@
       <workItem from="1564718508502" duration="604000" />
       <workItem from="1564948188884" duration="11888000" />
       <workItem from="1565061974012" duration="4660000" />
-      <workItem from="1565125697897" duration="2149000" />
+      <workItem from="1565125697897" duration="10029000" />
+      <workItem from="1565289325307" duration="11444000" />
     </task>
     <task id="LOCAL-00001" summary="classic binary search">
       <created>1564631661253</created>
@@ -257,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565065742341</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="PriorityQueue">
+      <created>1565127953008</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565127953008</updated>
+    </task>
+    <task id="LOCAL-00017" summary="PriorityQueue">
+      <created>1565130233483</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1565130233483</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +308,8 @@
     <MESSAGE value="All SubSet I" />
     <MESSAGE value="Two Sum" />
     <MESSAGE value="Count Nums String Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count Nums String Update" />
+    <MESSAGE value="PriorityQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="PriorityQueue" />
   </component>
   <component name="masterDetails">
     <states>
